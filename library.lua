@@ -515,6 +515,8 @@ do
             Parent = SatVibMapInner;
         });
 
+--[[
+        
         local CursorOuter = Library:Create('ImageLabel', {
             AnchorPoint = Vector2.new(0.5, 0.5);
             Size = UDim2.new(0, 6, 0, 6);
@@ -534,6 +536,8 @@ do
             Parent = CursorOuter;
         })
 
+--]]
+        
         local HueSelectorOuter = Library:Create('Frame', {
             BorderColor3 = Color3.new(0, 0, 0);
             Position = UDim2.new(0, 208, 0, 25);
